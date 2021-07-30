@@ -1,13 +1,13 @@
 # Project Overview
 
-## Project Name - TBD
+## Pantry Meal Selector!
 
 The name of your project with deployed URL.
 [My deployed project name] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This website gives users meal ideas, based on the ingredients they choose.
 
 ## API and Data Sample
 
@@ -48,7 +48,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | In Progress
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
@@ -68,8 +68,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Research API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Research API | H | 3hrs| 1.5hrs | 1.5hrs |
+| Designing Wireframe | H | 2hrs| 0.5hrs | 5hrs |
 | HTML/CSS structure | H | 3hrs| 2.5hrs | 2.5hrs |
 | Style form element | H | 3hrs| 2.5hrs | 2.5hrs |
 | Remove previous search results | H | 3hrs| 2.5hrs | 2.5hrs |
