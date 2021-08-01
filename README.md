@@ -1,27 +1,60 @@
 # Project Overview
 
-## Pantry Meal Selector!
+## Project Name
 
-The name of your project with deployed URL.
+Pantry Meal Selector
+-- The name of your project with deployed URL.
 [My deployed project name] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
 
-This website gives users meal ideas, based on the ingredients they choose.
+Users receive meal ideas based on ingredients they chose from a dropdown menu.
 
 ## API and Data Sample
 
-[Project API] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson)
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+Free Meal API www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast
+
 ```json
 {
-
+meals: [
+{
+strMeal: "Chicken Couscous",
+strMealThumb: "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg",
+idMeal: "52850"
+},
+{
+strMeal: "Chicken Fajita Mac and Cheese",
+strMealThumb: "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg",
+idMeal: "52818"
+},
+{
+strMeal: "Chicken Quinoa Greek Salad",
+strMealThumb: "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg",
+idMeal: "53011"
+},
+{
+strMeal: "General Tso's Chicken",
+strMealThumb: "https://www.themealdb.com/images/media/meals/1529444113.jpg",
+idMeal: "52951"
+},
+{
+strMeal: "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+strMealThumb: "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg",
+idMeal: "52993"
+},
+{
+strMeal: "Katsu Chicken curry",
+strMealThumb: "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg",
+idMeal: "52820"
+}
+]
 }
 ```
 
 ## Wireframes
-[wireframe] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson)
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+
+![image](https://user-images.githubusercontent.com/83891591/127759966-b0c9563e-d1f7-456a-87f1-7ac0daf33355.png)
+
 
 ### MVP/PostMVP
 
