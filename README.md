@@ -4,7 +4,7 @@
 
 Pantry Meal Selector
 -- The name of your project with deployed URL.
-[My deployed project name] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
+[Placeholder =>] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
 
@@ -95,20 +95,19 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| Designing Wireframe | H | 2hrs| 0.5hrs | 5hrs |
-| HTML/CSS structure | H | 3hrs| 2.5hrs | 2.5hrs |
-| Style form element | H | 3hrs| 2.5hrs | 2.5hrs |
-| Remove previous search results | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Project Worksheet | H | 3hrs| 1.5hrs | 1.5hrs |
+| Designing Wireframe | H | 2hrs| 1hr | 1hr |
+| HTML structure | H | 5hrs| -- hrs | -- hrs |
+| CSS | H | 8hrs| -- hrs | -- hrs |
+| Adding dropdown & button | H | 3hrs| -- hrs | -- hrs |
+| Styling dropdown | H | 2hrs| -- hrs | -- hrs |
+| Working with API | H | 6hrs| -- hrs | -- hrs |
+| Remove previous search results | H | 4hrs| -- hrs | -- hrs |
+| Nav settings | H | 3hrs| -- hrs | -- hrs |
+| Total | H | 38hrs| 4hrs | --hrs |
 
 ## Code Snippet
 
@@ -121,5 +120,5 @@ function reverse(string) {
 ```
 
 ## Change Log
- I had to use a different endpoint with my project API. I realized I had no images in my response.
+ Example: I had to use a different endpoint with my project API. I realized I had no images in my response.
  Use this section to document what changes were made and the reasoning behind those changes.  
