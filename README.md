@@ -3,7 +3,7 @@
 ## Project Name
 
 Pantry Meal Selector
--- The name of your project with deployed URL.
+- deployed URL.
 [Placeholder =>] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
@@ -61,23 +61,24 @@ idMeal: "52820"
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Built with HTML, CSS, and JavaScript.
+- Styled using Flexbox or Grid.
+- Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
+- Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
+- Fulfill the build requirements you have specified in your MVP.
+- Deployed site to a hosting service like Github Pages.
+- Make commits to GitHub every day.
+- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Add second API for cocktail suggestions for each meal
+- Add recipe links for each displayed meal
+
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
@@ -90,24 +91,26 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-[Priority Matrix] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson)
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+![image](https://user-images.githubusercontent.com/83891591/127780528-5b23b0e6-20a0-4aa3-b572-4088934c721f.png)
+
 
 ## Timeframes
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| Project Worksheet | H | 3hrs| 1.5hrs | 1.5hrs |
+| Project Worksheet | H | 3hrs| 1.75hrs | -- hrs |
 | Designing Wireframe | H | 2hrs| 1hr | 1hr |
+| Priority Matrix | H | 1hrs| 0.5hr | 0.5hr |
 | HTML structure | H | 5hrs| -- hrs | -- hrs |
-| CSS | H | 8hrs| -- hrs | -- hrs |
+| CSS structure | H | 5hrs| -- hrs | -- hrs |
 | Adding dropdown & button | H | 3hrs| -- hrs | -- hrs |
-| Styling dropdown | H | 2hrs| -- hrs | -- hrs |
+| Styling dropdown menu | H | 1hrs| -- hrs | -- hrs |
 | Working with API | H | 6hrs| -- hrs | -- hrs |
-| Remove previous search results | H | 4hrs| -- hrs | -- hrs |
+| Styling search results | H | 3hrs| -- hrs | -- hrs |
+| Remove previous search results | H | 2hrs| -- hrs | -- hrs |
 | Nav settings | H | 3hrs| -- hrs | -- hrs |
-| Total | H | 38hrs| 4hrs | --hrs |
+| Total | H | 37hrs| 4.75hrs | --hrs |
 
 ## Code Snippet
 
