@@ -56,24 +56,20 @@ idMeal: "52820"
 ![image](https://user-images.githubusercontent.com/83891591/127805749-47ae0299-0072-4129-9239-1cf56257682b.png)
 
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+### MVP/PostMVP 
 
 #### MVP 
 
-- Built with HTML, CSS, and JavaScript.
-- Styled using Flexbox or Grid.
-- Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
-- Implement responsive design using at least one media query/breakpoint (i.e. desktop, tablet, mobile, etc).
-- Fulfill the build requirements you have specified in your MVP.
-- Deployed site to a hosting service like Github Pages.
-- Make commits to GitHub every day.
-- A README.md file that contains your project worksheet, a link to your live, deployed site, and any necessary installation instructions such as npm i.
+- 1 API - Meals
+- 1 Dropdown menu based on main ingredient in meals
+- Each search will render 3 results, including image and title
+- Previous search will be cleared after each submission
+
 
 #### PostMVP  
 
 - Add second API for cocktail suggestions for each meal
+- Second dropdown menu for cocktails
 - Add recipe links for each displayed meal
 
 
@@ -82,7 +78,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | In Progress
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
@@ -91,7 +87,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-![image](https://user-images.githubusercontent.com/83891591/127806611-1beba5f2-7db3-465c-8c23-c2a49859fe7b.png)
+![image](https://user-images.githubusercontent.com/83891591/127861779-29d2611e-5cde-4b25-81bf-1bc9ce8e1e47.png)
 
 
 ## Timeframes
@@ -100,14 +96,19 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
 | HTML structure | H | 5hrs| -- hrs | -- hrs |
-| CSS structure | H | 5hrs| -- hrs | -- hrs |
-| Adding dropdown & button | H | 3hrs| -- hrs | -- hrs |
-| Styling dropdown menu | H | 1hrs| -- hrs | -- hrs |
-| Working with API | H | 6hrs| -- hrs | -- hrs |
-| Styling search results | H | 3hrs| -- hrs | -- hrs |
-| Remove previous search results | H | 2hrs| -- hrs | -- hrs |
-| Nav settings | H | 3hrs| -- hrs | -- hrs |
-| Total | H | 37hrs| 4.75hrs | --hrs |
+| CSS formatting | H | 5hrs| -- hrs | -- hrs |
+| Javascript framework | H | 3hrs| -- hrs | -- hrs |
+| Creating functions | H | 5hrs| -- hrs | -- hrs |
+| Creating loops | H | 5hrs| -- hrs | -- hrs |
+| Working with the DOM | H | 4hrs| -- hrs | -- hrs |
+| Adding dropdown form | H | 3hrs| -- hrs | -- hrs |
+| Linking images | H | 2hrs| -- hrs | -- hrs |
+| Working with API | H | 4hrs| -- hrs | -- hrs |
+| Optimizing search results | H | 3hrs| -- hrs | -- hrs |
+| Debugging | H | 5hrs| -- hrs | -- hrs |
+| Testing| H | 3hrs| -- hrs | -- hrs |
+| Refine design | M | 4hrs| -- hrs | -- hrs |
+| Total | H | 54hrs| 1.5hrs | --hrs |
 
 ## Code Snippet
 
@@ -120,5 +121,6 @@ function reverse(string) {
 ```
 
 ## Change Log
- Example: I had to use a different endpoint with my project API. I realized I had no images in my response.
- Use this section to document what changes were made and the reasoning behind those changes.  
+ 1. Example: I had to use a different endpoint with my project API. I realized I had no images in my response.
+ 2. Use this section to document what changes were made and the reasoning behind those changes.
+ 3. Remember to use this section!
