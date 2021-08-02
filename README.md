@@ -2,13 +2,13 @@
 
 ## Project Name
 
-Pantry Meal Selector
-- deployed URL.
-[Placeholder =>] (https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
+Pantry Meals
+
+[Placeholder Link Until Deployed ](https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
 
-Users receive meal ideas based on ingredients they chose from a dropdown menu.
+Pantry Meals will be an app that will allow users to get meal ideas based on ingredients they chose from a dropdown menu.
 
 ## API and Data Sample
 
