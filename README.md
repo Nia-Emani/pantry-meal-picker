@@ -53,7 +53,7 @@ idMeal: "52820"
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/83891591/127759966-b0c9563e-d1f7-456a-87f1-7ac0daf33355.png)
+![image](https://user-images.githubusercontent.com/83891591/127805749-47ae0299-0072-4129-9239-1cf56257682b.png)
 
 
 ### MVP/PostMVP
