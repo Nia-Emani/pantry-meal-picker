@@ -91,7 +91,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-![image](https://user-images.githubusercontent.com/83891591/127780528-5b23b0e6-20a0-4aa3-b572-4088934c721f.png)
+![image](https://user-images.githubusercontent.com/83891591/127806401-fe51f7f9-f6bf-43f3-a3a7-8a9ea074e671.png)
 
 
 ## Timeframes
