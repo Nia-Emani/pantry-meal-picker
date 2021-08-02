@@ -93,13 +93,13 @@ idMeal: "52820"
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| HTML structure | H | 5hrs| -- hrs | -- hrs |
-| CSS formatting | H | 5hrs| 1hrs | -- hrs |
+| HTML structure | H | 5hrs| 1hrs | -- hrs |
+| CSS formatting | H | 5hrs| 2hrs | -- hrs |
 | Javascript framework | H | 3hrs| -- hrs | -- hrs |
 | Creating functions | H | 5hrs| -- hrs | -- hrs |
 | Creating loops | H | 5hrs| -- hrs | -- hrs |
-| Working with the DOM | H | 4hrs| -- hrs | -- hrs |
-| Adding search form | H | 3hrs| -- hrs | -- hrs |
+| Working with the DOM | H | 4hrs| 1hrs | -- hrs |
+| Adding search form | H | 3hrs| 0.5 hrs | -- hrs |
 | Linking images | H | 2hrs| -- hrs | -- hrs |
 | Working with API | H | 4hrs| -- hrs | -- hrs |
 | Optimizing search results | H | 3hrs| -- hrs | -- hrs |
