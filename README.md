@@ -94,7 +94,7 @@ idMeal: "52820"
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
 | HTML structure | H | 5hrs| -- hrs | -- hrs |
-| CSS formatting | H | 5hrs| -- hrs | -- hrs |
+| CSS formatting | H | 5hrs| 1hrs | -- hrs |
 | Javascript framework | H | 3hrs| -- hrs | -- hrs |
 | Creating functions | H | 5hrs| -- hrs | -- hrs |
 | Creating loops | H | 5hrs| -- hrs | -- hrs |
