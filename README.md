@@ -1,14 +1,12 @@
 # Project Overview
 
-## Project Name
-
-Pantry Meals
+## Pantry Meals
 
 [Placeholder Link Until Deployed ](https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
 
 ## Project Description
 
-Pantry Meals will be an app that will allow users to get meal ideas based on ingredients they chose from a dropdown menu.
+Pantry Meals will be an app that will allow users to get meal ideas based on ingredients they search.
 
 ## API and Data Sample
 
@@ -53,7 +51,7 @@ idMeal: "52820"
 
 ## Wireframes
 
-![image](https://user-images.githubusercontent.com/83891591/127805749-47ae0299-0072-4129-9239-1cf56257682b.png)
+![image](https://user-images.githubusercontent.com/83891591/127872378-fa58ac42-6daa-44c1-9d25-3f7b453648d4.png)
 
 
 ### MVP/PostMVP 
@@ -61,7 +59,7 @@ idMeal: "52820"
 #### MVP 
 
 - 1 API - Meals
-- 1 Dropdown menu based on main ingredient in meals
+- 1 search form based on main ingredient in meals
 - Each search will render 3 results, including image and title
 - Previous search will be cleared after each submission
 
@@ -101,7 +99,7 @@ idMeal: "52820"
 | Creating functions | H | 5hrs| -- hrs | -- hrs |
 | Creating loops | H | 5hrs| -- hrs | -- hrs |
 | Working with the DOM | H | 4hrs| -- hrs | -- hrs |
-| Adding dropdown form | H | 3hrs| -- hrs | -- hrs |
+| Adding search form | H | 3hrs| -- hrs | -- hrs |
 | Linking images | H | 2hrs| -- hrs | -- hrs |
 | Working with API | H | 4hrs| -- hrs | -- hrs |
 | Optimizing search results | H | 3hrs| -- hrs | -- hrs |
