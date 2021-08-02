@@ -91,7 +91,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 ## Priority Matrix
 
-![image](https://user-images.githubusercontent.com/83891591/127806401-fe51f7f9-f6bf-43f3-a3a7-8a9ea074e671.png)
+![image](https://user-images.githubusercontent.com/83891591/127806611-1beba5f2-7db3-465c-8c23-c2a49859fe7b.png)
 
 
 ## Timeframes
@@ -99,9 +99,6 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| Project Worksheet | H | 3hrs| 1.75hrs | -- hrs |
-| Designing Wireframe | H | 2hrs| 1hr | 1hr |
-| Priority Matrix | H | 1hrs| 0.5hr | 0.5hr |
 | HTML structure | H | 5hrs| -- hrs | -- hrs |
 | CSS structure | H | 5hrs| -- hrs | -- hrs |
 | Adding dropdown & button | H | 3hrs| -- hrs | -- hrs |
