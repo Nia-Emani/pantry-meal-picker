@@ -1,7 +1,8 @@
 
 
 
-const base_url = `www.themealdb.com/api/json/v1/1/filter.php?i=`
+// const base_url = `www.themealdb.com/api/json/v1/1/filter.php?i=`
+const base_url = `http://localhost:3000/foods/`
 const button = document.querySelector('#search-button')
 const searchResults = document.querySelector('.meal-results')
 
@@ -10,8 +11,8 @@ const getData = async () => {
   try {
     const ingredient = document.querySelector('input').value
     const response = await axios.get(`${base_url}${ingredient}`)
-    console.log(response) //Use traverse method to get exact info
-    showMeals(response)
+    console.log(response.data.meals) //Use traverse method to get exact info
+    showMeals(response.data.meals)
   } catch (error) {
     console.error(error)
   }

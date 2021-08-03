@@ -1,0 +1,27 @@
+{
+  "name": "pantry-meals",
+  "version": "1.0.0",
+  "description": "## Pantry Meals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nia-Emani/pantry-meals.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nia-Emani/pantry-meals/issues"
+  },
+  "homepage": "https://github.com/Nia-Emani/pantry-meals#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
