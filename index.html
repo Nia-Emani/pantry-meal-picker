@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pantry Meals</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="app.js" charset="utf-8"></script>
   <link rel='stylesheet' type='text/css' href='./style.css'>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
+  <title>Pantry Meals</title>
 </head>
 
 <body>
@@ -19,9 +21,20 @@
     </div>
   </header>
   <main>
-    <article>Content</article>
-    <aside class='left'>Left sidebar</aside>
-    <aside class='right'>Right sidebar</aside>
+    <section class="hero-image">
+
+    </section>
+    <article>
+      <p>Pick an ingredient from the dropdown menu based on what you have in your kitchen<br>
+        and click submit to get meal ideas instantly. Bon Apetit!</p>
+      <div class="search-form">
+        <input type="text" id="blank" placeholder="Type an ingredient">
+        <button id="search-button">Search</button>
+      </div>
+      <section class='meal-results'></section>
+    </article>
+    <aside class='left'></aside>
+    <aside class='right'></aside>
   </main>
   <footer>
     <div class='bottom-nav'>
