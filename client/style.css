@@ -30,12 +30,8 @@ article {
   box-sizing: border-box;
   text-align: center;
 }
-.hero-photo {
- object-fit: scale-down; 
-}
-
 p {
-  padding: 50px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .search-form {
@@ -54,7 +50,17 @@ p {
   background-color: #d4c8be; 
 }
 
-
+.meal-results div {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.food-image {
+  width: 100%;
+  height: auto;
+}
 
 aside {
   background-color: white;
@@ -97,8 +103,10 @@ main {
 .meal-results {
   display: flex;
   flex-direction: row;
-  height: 100px;
+  justify-content: space-evenly;
+  align-items: center;
   width: auto;
+  margin: 15px auto;
 }
 
 header,footer {

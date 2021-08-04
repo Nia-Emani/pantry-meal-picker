@@ -24,22 +24,13 @@ const getData = async () => {
 button.addEventListener('click', getData)
 
 function showMeals(meals) {
-  // meals.forEach((meal) => {
-  //   const divResults = document.createElement('div')
-  //   searchResults.append(divResults)
-  //   const mealPic = document.createElement('img')
-  //   const mealName = document.createElement('h3')
-  //   mealPic.src = meal.strMealThumb //replace 'strMealThumb with image location
-  //   mealName.textContent = meal.strMeal //replace 'strMea with title location
-  //   divResults.append(mealPic, mealName)
-  // })
   for (let i = 0; i < 3; i++) {
     let randomIdx = Math.floor(Math.random() * meals.length)
     let meal = meals[randomIdx]
     console.log(meals[randomIdx])
     const foodData = `
     <div>
-      <img src="${meal.strMealThumb}"/>
+    <img class="food-image" src="${meal.strMealThumb}"/>
       <h3>${meal.strMeal}</h3>
     </div>
     `
@@ -55,4 +46,13 @@ function removeElement(element) {
 }
 
 
-// "https://randomuser.me/api/?results=10"
+
+// meals.forEach((meal) => {
+//   const divResults = document.createElement('div')
+//   searchResults.append(divResults)
+//   const mealPic = document.createElement('img')
+//   const mealName = document.createElement('h3')
+//   mealPic.src = meal.strMealThumb //replace 'strMealThumb with image location
+//   mealName.textContent = meal.strMeal //replace 'strMea with title location
+//   divResults.append(mealPic, mealName)
+// })
