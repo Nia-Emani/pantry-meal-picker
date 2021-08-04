@@ -31,7 +31,7 @@ function showMeals(meals) {
     const foodData = `
     <div>
     <img class="food-image" src="${meal.strMealThumb}"/>
-      <h3>${meal.strMeal}</h3>
+      <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
     </div>
     `
     searchResults.insertAdjacentHTML("beforeend", foodData)
