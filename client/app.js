@@ -13,10 +13,13 @@ const getData = async () => {
   try {
     const ingredient = document.querySelector('input').value
     const response = await axios.get(`${base_url}${ingredient}`)
-    console.log(response.data.meals) //Use traverse method to get exact info
+    console.log(response.data.meals)
     showMeals(response.data.meals)
 
+
+
   } catch (error) {
+    alert("Sorry, time to go grocery shopping!")
     console.error(error)
   }
 }
@@ -24,17 +27,23 @@ const getData = async () => {
 button.addEventListener('click', getData)
 
 function showMeals(meals) {
-  for (let i = 0; i < 3; i++) {
+  const indexArr = []
+  let i = 0
+
+  while (i < 3) {
     let randomIdx = Math.floor(Math.random() * meals.length)
-    let meal = meals[randomIdx]
-    console.log(meals[randomIdx])
-    const foodData = `
+    if (!indexArr.includes(randomIdx)) {
+      indexArr.push(randomIdx)
+      let meal = meals[randomIdx]
+      const foodData = `
     <div>
     <img class="food-image" src="${meal.strMealThumb}"/>
-      <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
+    <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
     </div>
     `
-    searchResults.insertAdjacentHTML("beforeend", foodData)
+      searchResults.insertAdjacentHTML("beforeend", foodData)
+      i++
+    }
   }
   searchBar.value = ''
 }
@@ -45,6 +54,30 @@ function removeElement(element) {
   }
 }
 
+
+
+
+
+// if (document.getElementById("blank").value.length == 0) {
+  //   alert("Sorry")
+  // }
+
+
+// const mealArray = Object.keys(meal)
+// console.log(mealArray)
+// if (lastRandom === undefined) {
+//   randomIdx = Math.floor(Math.random() * meals.length + 1)
+// } else {
+//   random = mealArray[lastRandom][Math.floor(Math.random() * 2)]
+// }
+// lastRandom = random
+
+
+//function showMeals(meals) {
+  // for (let i = 0; i < 3; i++) {
+  //   let randomIdx = Math.floor(Math.random() * meals.length)
+  //   let meal = meals[randomIdx]
+  //   console.log(meals[randomIdx])
 
 
 // meals.forEach((meal) => {

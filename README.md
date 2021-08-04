@@ -93,19 +93,19 @@ idMeal: "52820"
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| HTML structure | H | 5hrs| 1.5hrs | 1.5hrs |
+| HTML structure | H | 5hrs| 2hrs | 1.5hrs |
 | CSS formatting | H | 5hrs| 8hrs | -- hrs |
 | Javascript framework | H | 3hrs| 2 hrs | -- hrs |
 | Creating functions | H | 5hrs| 1.5 hrs | -- hrs |
-| Creating loops | H | 5hrs| 0.5 hrs | -- hrs |
-| Working with the DOM | H | 4hrs| 1.5hrs | -- hrs |
-| Adding search form | H | 3hrs| 0.5 hrs | -- hrs |
+| Creating loops | H | 5hrs| 1 hrs | -- hrs |
+| Working with the DOM | H | 4hrs| 2.5hrs | -- hrs |
+| Adding search form | H | 3hrs| 1 hrs | -- hrs |
 | Linking images | H | 2hrs| 1.5 hrs | -- hrs |
 | Working with API | H | 4hrs| 1 hrs | -- hrs |
-| Optimizing search results | H | 3hrs| 2 hrs | -- hrs |
+| Optimizing search results | H | 3hrs| 3.5 hrs | -- hrs |
 | Debugging | H | 5hrs| 2.5 hrs | -- hrs |
-| Testing| H | 3hrs| 1 hrs | -- hrs |
-| Refine design | M | 4hrs| -- hrs | -- hrs |
+| Testing| H | 3hrs| 2 hrs | -- hrs |
+| Refine design | M | 4hrs| 2 hrs | -- hrs |
 | Total | H | 54hrs| 1.5hrs | --hrs |
 
 ## Code Snippet
@@ -119,6 +119,6 @@ function reverse(string) {
 ```
 
 ## Change Log
- 1. Example: I had to use a different endpoint with my project API. I realized I had no images in my response.
- 2. Use this section to document what changes were made and the reasoning behind those changes.
- 3. Remember to use this section!
+ 1. I decided to create a search bar instead of a drop-down menu. With a dropdown, I would have had to choose which ingredients from the api to list in order to have users select from those options and then create some sort of function that would loop through only those choices from the API. The more efficient solution and the one that more closely aligned with the concept of the app, was to allow users to search for an ingredient.
+ 2. My API worked well both in Postman and my browser but, I had to get help with creating a back-end solution to allow CORS via an express server, in order to send get requests. I didn't want to start over, with reseraching APIs so this was the better solution for me. I have to be mindful of connecting to the server while I'm testing my site and disconnecting when I'm done, but this solution still saved me time.
+ 3. --
