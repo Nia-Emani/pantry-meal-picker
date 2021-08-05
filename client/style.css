@@ -10,19 +10,23 @@ header {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 15px;
-  color: rgb(29, 109, 93);
+  font-size: 17px;
+  color: rgb(97, 103, 57);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 10px 15px;
+  border: solid 3px #c7c7bb;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
 
 h1 {
   width: fit-content;
   margin: 0;
-  padding: 10px;
+  padding: 10px 0 10px 140px;
 }
 
 /* #header-container h1,
@@ -41,6 +45,7 @@ h1 {
   color: #7f867B;
   float: right;
   margin: 0;
+  padding: 10px 140px 0 0;
 }
 .contact:hover {
   color: white;
@@ -50,26 +55,50 @@ article {
   background-color: white;
   box-sizing: border-box;
   text-align: center;
+  border: solid 3px #c7c7bb;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
 }
+
 p {
   padding: 20px 0 0 0;
   font-size: 22px;
+  color: rgb(97, 103, 57);
+}
+
+i {
+  font-weight: normal;
 }
 
 .search-form {
   padding: 0 0 50px 0;
 }
 
+input {
+  border: solid 2px #7f867B;
+  border-radius: 6px;
+  height: 24px;
+}
+
+::placeholder {
+  color: #d3d5d4;
+  text-align: center;
+  font-size: 14px;
+}
+
 #search-button{
   color: white;
-  background-color: rgb(29, 109, 93);
+  background-color: #d4c8be;
   cursor: pointer;
-  border-radius: 6px;
+  width: 75px;
+  height: 30px;
+  font-size: 14px;
   border: 1px;
+  border-radius: 6px;
 }
 #search-button:hover {
   color: white;
-  background-color: #d4c8be; 
+  background-color: rgb(97, 103, 57); 
 }
 
 .meal-results div {
@@ -95,10 +124,15 @@ footer {
   padding: 50px;
   box-sizing: border-box;
   text-align: center;
+  border: solid 3px #c7c7bb;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
 }
 .bottom-nav a  {
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  font-weight: normal;
   text-decoration: none;
   color: #7f867B;
 }
@@ -110,7 +144,6 @@ footer {
 
 
 /* F L E X B O X */
-
 body {
   display: flex;
   flex-direction: column;
@@ -120,6 +153,10 @@ body {
 main {
   display: flex;
   flex-grow: 1;
+}
+.hero-photo {
+  display: flex;
+  width: 100%;
 }
 
 .meal-results {
@@ -145,8 +182,14 @@ article{
 }
 
 @media screen and (max-width: 1025px) {
+  h1 {
+    padding: 0;
+    font-size: 24px;
+  }
+  
   .contact {
     font-size: 14px;
+    padding: 0;
   }
   
   main {
@@ -161,15 +204,20 @@ article{
   }
   .meal-results {
     flex-direction: column;
-    display: block;
-    width:75%;
-
+    font-size: 12px;
+    align-items: center;
   }
   .food-image {
-    width: 75%;
+    width: 100%;
     height: auto;
   }
   .left {
     order: 1;
+  }
+  footer {
+    padding: 32px;
+  }
+  .bottom-nav a {
+    font-size: 14px;
   }
 }
