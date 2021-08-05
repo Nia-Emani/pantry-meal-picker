@@ -77,10 +77,10 @@ idMeal: "52820"
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|August 3| Pseudocode / actual code | Incomplete
-|August 4| Initial Clickable Model  | Incomplete
-|August 5| MVP | Incomplete
+|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Complete
+|August 3| Pseudocode / actual code | Complete
+|August 4| Initial Clickable Model  | Complete
+|August 5| MVP | Complete
 |August 6| Presentations | Incomplete
 
 ## Priority Matrix
@@ -94,7 +94,7 @@ idMeal: "52820"
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
 | HTML structure | H | 5hrs| 3hrs | 1.5hrs |
-| CSS formatting | H | 5hrs| 12hrs | -- hrs |
+| CSS formatting | H | 5hrs| 18hrs | -- hrs |
 | Javascript framework | H | 3hrs| 2hrs | -- hrs |
 | Creating functions | H | 5hrs| 2.5hrs | -- hrs |
 | Creating loops | H | 5hrs| 3hrs | -- hrs |
@@ -106,19 +106,36 @@ idMeal: "52820"
 | Debugging | H | 5hrs| 2.5hrs | -- hrs |
 | Testing| H | 3hrs| 4 hrs | -- hrs |
 | Refine design | M | 4hrs| 2 hrs | -- hrs |
-| Total | H | 54hrs| 1.5hrs | --hrs |
+| Total | H | 54hrs| 46hrs | --hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
+function showMeals(meals) {
+  const indexArr = []
+  let i = 0
+  let loop = meals.length < 3 ? meals.length : 3;
+  while (i < loop) {
+    let randomIdx = Math.floor(Math.random() * meals.length)
+    if (!indexArr.includes(randomIdx)) {
+      indexArr.push(randomIdx)
+      let meal = meals[randomIdx]
+      const foodData = `
+      <div>
+      <img class="food-image" src="${meal.strMealThumb}"/>
+      <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
+      </div>
+      `
+      searchResults.insertAdjacentHTML("beforeend", foodData)
+      i++
+    }
+  }
+  searchBar.value = ''
 }
 ```
 
 ## Change Log
  1. I decided to create a search bar instead of a drop-down menu. With a dropdown, I would have had to choose which ingredients from the api to list in order to have users select from those options and then create some sort of function that would loop through only those choices from the API. The more efficient solution and the one that more closely aligned with the concept of the app, was to allow users to search for an ingredient.
  2. My API worked well both in Postman and my browser but, I had to get help with creating a back-end solution to allow CORS via an express server, in order to send get requests. I didn't want to start over, with reseraching APIs so this was the better solution for me. I have to be mindful of connecting to the server while I'm testing my site and disconnecting when I'm done, but this solution still saved me time.
- 3. --
