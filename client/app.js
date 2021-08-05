@@ -25,22 +25,46 @@ const getData = async () => {
 }
 
 button.addEventListener('click', getData)
+// button.addEventListener("keydown",)
+
+// searchBar.addEventListener("keydown", function (getData) {
+//   if (getData.keycode === 13) {
+//     getData.preventDefault()
+//     button.click()
+//   }
+// })
+
+// // Get the input field
+// var input = document.getElementById("myInput");
+
+// // Execute a function when the user releases a key on the keyboard
+// input.addEventListener("keyup", function(event) {
+//   // Number 13 is the "Enter" key on the keyboard
+//   if (event.keyCode === 13) {
+//     // Cancel the default action, if needed
+//     event.preventDefault();
+//     // Trigger the button element with a click
+//     document.getElementById("myBtn").click();
+//   }
+// });
+
+
 
 function showMeals(meals) {
   const indexArr = []
   let i = 0
-
-  while (i < 3) {
+  let loop = meals.length < 3 ? meals.length : 3;
+  while (i < loop) {
     let randomIdx = Math.floor(Math.random() * meals.length)
     if (!indexArr.includes(randomIdx)) {
       indexArr.push(randomIdx)
       let meal = meals[randomIdx]
       const foodData = `
-    <div>
-    <img class="food-image" src="${meal.strMealThumb}"/>
-    <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
-    </div>
-    `
+      <div>
+      <img class="food-image" src="${meal.strMealThumb}"/>
+      <h3 style="text-transform: uppercase">${meal.strMeal}</h3>
+      </div>
+      `
       searchResults.insertAdjacentHTML("beforeend", foodData)
       i++
     }
@@ -57,6 +81,13 @@ function removeElement(element) {
 
 
 
+
+
+
+//   if (e.KeyboardEvent.keyCode == 13) {
+//     // submit
+//   }
+// };
 
 // if (document.getElementById("blank").value.length == 0) {
   //   alert("Sorry")
