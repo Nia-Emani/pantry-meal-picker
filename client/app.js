@@ -3,12 +3,30 @@ const button = document.querySelector('#search-button')
 const searchBar = document.querySelector('#blank')
 const searchResults = document.querySelector('.meal-results')
 
+// API Set up for production
+let apiUrl;
+
+const apiUrls = {
+  production: "",
+  development: "http://localhost:3000",
+};
+
+if (window.location.hostname === "localhost") {
+  apiUrl = apiUrls.development;
+} else {
+  apiUrl = apiUrls.production;
+}
+
+const api = axios.create({
+  baseURL: apiUrl,
+});
+// End of API setup
+
 const getData = async () => {
   removeElement(searchResults)
   try {
     const ingredient = document.querySelector('input').value
-    const response = await axios.get(`${base_url}${ingredient}`)
-    // console.log(response.data.meals)
+    const response = await api.get(`${base_url}${ingredient}`)
     showMeals(response.data.meals)
 
   } catch (error) {

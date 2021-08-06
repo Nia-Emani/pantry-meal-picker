@@ -81,7 +81,7 @@ idMeal: "52820"
 |August 3| Pseudocode / actual code | Complete
 |August 4| Initial Clickable Model  | Complete
 |August 5| MVP | Complete
-|August 6| Presentations | Incomplete
+|August 6| Presentations | Complete
 
 ## Priority Matrix
 
@@ -94,7 +94,7 @@ idMeal: "52820"
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
 | HTML structure | H | 5hrs| 3hrs | 1.5hrs |
-| CSS formatting | H | 5hrs| 18hrs | -- hrs |
+| CSS formatting | H | 5hrs| 6.5hrs | -- hrs |
 | Javascript framework | H | 3hrs| 2hrs | -- hrs |
 | Creating functions | H | 5hrs| 2.5hrs | -- hrs |
 | Creating loops | H | 5hrs| 3hrs | -- hrs |
@@ -105,7 +105,7 @@ idMeal: "52820"
 | Optimizing search results | H | 3hrs| 5hrs | -- hrs |
 | Debugging | H | 5hrs| 2.5hrs | -- hrs |
 | Testing| H | 3hrs| 4 hrs | -- hrs |
-| Refine design | M | 4hrs| 2 hrs | -- hrs |
+| Refine design | M | 4hrs| 6hrs | -- hrs |
 | Total | H | 54hrs| 46hrs | --hrs |
 
 ## Code Snippet
