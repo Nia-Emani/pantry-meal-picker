@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Pantry Meals will be an app that will allow users to get meal ideas based on ingredients they search.
+Pantry Meals is an app that allows users to get meal ideas based on ingredients they search.
 
 ## API and Data Sample
 
@@ -106,10 +106,10 @@ idMeal: "52820"
 | Debugging | H | 5hrs| 2.5hrs | 2.5hrs |
 | Testing| H | 3hrs| 4 hrs | 4hrs |
 | Refine design | M | 4hrs| 6.5hrs | 6.5hrs |
-| Total | H | 54hrs| 46hrs | 46hrs |
+| Total | H | 54hrs| 45hrs | 45hrs |
 
 ## Code Snippet
-I created an algorithm to populate customize the results output. I wanted the user to see a maximum of three different meal options, chosen randomly. This algorithm makes that happen.
+I created this algorithm to populate customized search results as the output. I wanted the user to see a maximum of three different meal options, chosen randomly when they search for an ingredient.
 
 ```
 function showMeals(meals) {
@@ -137,5 +137,5 @@ function showMeals(meals) {
 
 
 ## Change Log
- 1. I decided to create a search bar instead of a drop-down menu. With a dropdown, I would have had to choose which ingredients from the api to list in order to have users select from those options and then create some sort of function that would loop through only those choices from the API. The more efficient solution and the one that more closely aligned with the concept of the app, was to allow users to search for an ingredient.
- 2. My API worked well both in Postman and my browser but, I had to get help with creating a back-end solution to allow CORS via an express server, in order to send get requests. I didn't want to start over, with reseraching APIs so this was the better solution for me. I have to be mindful of connecting to the server while I'm testing my site and disconnecting when I'm done, but this solution still saved me time.
+ 1. I decided to create a search bar instead of a drop-down menu. With a dropdown, I would have had to choose which ingredients from the api to list for users to select from and then create a function that would loop through only those choices from the API. The more efficient solution and the one that more closely aligned with the concept of the app, was to allow users to search for an ingredient.
+ 2. My API worked well in Postman, but I had to get help with creating a back-end solution to bypass a CORS error via an express server in order to send get requests. In the interest of time, thought it would be best to add that additional backend code instead of researching new APIs.
