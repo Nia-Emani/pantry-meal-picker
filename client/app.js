@@ -26,7 +26,7 @@ const getData = async () => {
   removeElement(searchResults)
   try {
     const ingredient = document.querySelector('input').value
-    const response = await api.get(`${base_url}${ingredient}`)
+    const response = await api.get(`/foods/${ingredient}`)
     showMeals(response.data.meals)
 
   } catch (error) {
