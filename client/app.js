@@ -8,7 +8,7 @@ const getData = async () => {
   try {
     const ingredient = document.querySelector('input').value
     const response = await axios.get(`${base_url}${ingredient}`)
-    console.log(response.data.meals)
+    // console.log(response.data.meals)
     showMeals(response.data.meals)
 
   } catch (error) {

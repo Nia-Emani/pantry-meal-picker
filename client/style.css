@@ -53,12 +53,13 @@ article {
 
 p {
   padding: 20px 0 0 0;
-  font-size: 22px;
+  font-size: 20px;
   color: rgb(97, 103, 57);
 }
 
-i {
+.bon-appetit {
   font-weight: normal;
+  padding: 0 0 20px;
 }
 
 .search-form {
@@ -68,28 +69,35 @@ i {
 input {
   border: solid 2px #7f867B;
   border-radius: 6px;
-  height: 24px;
+  height: 30px;
+  width: 200px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
 }
 
 ::placeholder {
   color: #d3d5d4;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #search-button{
   color: white;
   background-color: #d4c8be;
+  font-size: 18px;
+  font-weight: bold;
   cursor: pointer;
-  width: 75px;
-  height: 30px;
-  font-size: 14px;
+  width: 100px;
+  height: 36px;
   border: 1px;
   border-radius: 6px;
+  background-image: linear-gradient(to right, #7f867B 0%, #c7c7bb 25%, #e3e4e0 51%, #c7c7bb 75%, #7f867B 100%);
 }
 #search-button:hover {
   color: white;
-  background-color: rgb(97, 103, 57); 
+  background-color: rgb(97, 103, 57);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 6px 8px 10px;
 }
 
 .meal-results div {
@@ -131,14 +139,12 @@ footer {
   color: white;
 }
 
-/* T O O L T I P */
+/* T O O L T I P  :: Code source - https://www.w3schools.com/howto/howto_css_tooltip.asp*/
 .tooltip {
   position: relative;
   display: inline-block;
-  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  border-bottom: 1px dotted black;
 }
-
-/* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
@@ -151,13 +157,9 @@ footer {
   left: 105%;
   opacity: 0;
   transition: opacity 0.5s;
-  
-  /* Position the tooltip text */
   position: absolute; 
   z-index: 1;
 }
-
-/* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
@@ -203,6 +205,7 @@ article{
   order: 2;
 }
 
+/* M E D I A  Q U E R Y */
 @media screen and (max-width: 1025px) {
   h1 {
     padding: 0;
