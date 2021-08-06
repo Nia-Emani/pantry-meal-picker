@@ -7,7 +7,7 @@ const searchResults = document.querySelector('.meal-results')
 let apiUrl;
 
 const apiUrls = {
-  production: "",
+  production: "https://pantrymeals-api.herokuapp.com",
   development: "http://localhost:3000",
 };
 
