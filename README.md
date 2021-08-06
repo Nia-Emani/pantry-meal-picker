@@ -2,7 +2,7 @@
 
 ## Pantry Meals
 
-[Placeholder Link Until Deployed ](https://git.generalassemb.ly/niaemani/css-responsive-design-lesson.com)
+[Pantry Meals Site ](https://pantrymeals.surge.sh/)
 
 ## Project Description
 
@@ -93,24 +93,23 @@ idMeal: "52820"
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | Research API | H | 3hrs| 1.5hrs | 1.5hrs |
-| HTML structure | H | 5hrs| 3hrs | 1.5hrs |
-| CSS formatting | H | 5hrs| 6.5hrs | -- hrs |
-| Javascript framework | H | 3hrs| 2hrs | -- hrs |
-| Creating functions | H | 5hrs| 2.5hrs | -- hrs |
-| Creating loops | H | 5hrs| 3hrs | -- hrs |
-| Working with the DOM | H | 4hrs| 3.5hrs | -- hrs |
+| HTML structure | H | 5hrs| 3hrs | 3hrs |
+| CSS formatting | H | 5hrs| 6.5hrs | 6.5hrs |
+| Javascript framework | H | 3hrs| 2hrs | 2hrs |
+| Creating functions | H | 5hrs| 2.5hrs | 2.5hrs |
+| Creating loops | H | 5hrs| 3hrs | 3hrs |
+| Working with the DOM | H | 4hrs| 3.5hrs | 3.5hrs |
 | Adding search form | H | 3hrs| 1 hrs | 1hrs |
 | Linking images | H | 2hrs| 1.5hrs | 1.5hrs |
 | Working with API | H | 4hrs| 2.5hrs | 2.5hrs |
-| Optimizing search results | H | 3hrs| 5hrs | -- hrs |
-| Debugging | H | 5hrs| 2.5hrs | -- hrs |
-| Testing| H | 3hrs| 4 hrs | -- hrs |
-| Refine design | M | 4hrs| 6hrs | -- hrs |
-| Total | H | 54hrs| 46hrs | --hrs |
+| Optimizing search results | H | 3hrs| 5hrs | 5hrs |
+| Debugging | H | 5hrs| 2.5hrs | 2.5hrs |
+| Testing| H | 3hrs| 4 hrs | 4hrs |
+| Refine design | M | 4hrs| 6.5hrs | 6.5hrs |
+| Total | H | 54hrs| 46hrs | 46hrs |
 
 ## Code Snippet
-
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+I created an algorithm to populate customize the results output. I wanted the user to see a maximum of three different meal options, chosen randomly. This algorithm makes that happen.
 
 ```
 function showMeals(meals) {
@@ -135,6 +134,7 @@ function showMeals(meals) {
   searchBar.value = ''
 }
 ```
+
 
 ## Change Log
  1. I decided to create a search bar instead of a drop-down menu. With a dropdown, I would have had to choose which ingredients from the api to list in order to have users select from those options and then create some sort of function that would loop through only those choices from the API. The more efficient solution and the one that more closely aligned with the concept of the app, was to allow users to search for an ingredient.

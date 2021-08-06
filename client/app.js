@@ -1,4 +1,3 @@
-const base_url = `http://localhost:3000/foods/`
 const button = document.querySelector('#search-button')
 const searchBar = document.querySelector('#blank')
 const searchResults = document.querySelector('.meal-results')
