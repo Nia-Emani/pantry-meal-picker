@@ -140,7 +140,8 @@ footer {
 }
 
 /* T O O L T I P  :: Code source - https://www.w3schools.com/howto/howto_css_tooltip.asp*/
-.tooltip {
+/* Add <span class="tooltiptext">let's eat!</span> right after the word Search on line 36 in html*/
+/* .tooltip {
   position: relative;
   display: inline-block;
   border-bottom: 1px dotted black;
@@ -163,7 +164,7 @@ footer {
 .tooltip:hover .tooltiptext {
   visibility: visible;
   opacity: 1;
-}
+} */
 
 
 
